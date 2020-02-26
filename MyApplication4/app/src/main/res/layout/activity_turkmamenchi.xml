@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turkmamenchiActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkmamenchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkmamenchi">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkmamenchi"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/mamenchisaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Mamenchisaurus ilk kez 1952'de Çin'in Sichuan şehrindeki Yitang Otoyolunun inşaat alanında keşfedildi. Daha sonra kısmi iskelet fosili incelenmiştir ve 1954'te ünlü Çinli paleontolog Profesör C. C. Young tarafından Mamenchisaurus constructus olarak adlandırılmıştır. Tip örnek 14 omur korunarak tam boynuna sahipti ve hiçbiri tam değildi. M. constructus'un yaklaşık 13 m (43 ft) ve 15 m (49 ft) uzunluğunda olduğu tahmin edilmiştir. 1972’de, Mamenchisaurus hochuanensis adında, 9,3 m uzunluğu: Bu tür, 19 omur ihtiva eden tam bir boynu korumuşturdu. M. hochuanensis'i aşan bir başka uzun boyunlu auropod, 1994 yılında keşfedilen Sauroposeidon'dur."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

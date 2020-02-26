@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".TurkutahrapActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkutah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkutah">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkutah"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/utahraptor1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Utahraptor'un holotip örneği, kafatası parçaları, bir tibia, pençeler ve bazı kaudal omurların bir parçasıdır. Bu birkaç element, Deinonychus'un iki katı uzunluğunda bir hayvana atıfta bulunur. Diğer dromaeosauritler gibi, Utahraptor da ikinci parmaklarında geniş kavisli pençelere sahipti. Bir pençe numunesinin 22 santimetre (8.7 inç) uzunluğunda tutulduğu ve 24 cm'ye (9.4 inç) geri getirildiği düşünülmektedir. Açıklanan en büyük U. ostrommaysi örneklerinin 7 metrelik bir boz ayı veya kutup ayısı ile karşılaştırılabileceği tahmin edilmektedir. (23 ft) uzun ve 500 kilogramdan (1.100 lb) biraz daha küçük. Bununla birlikte, 2001 Kirkland keşfi, türlerin tahmin edilenden çok daha ağır olabileceğini göstermektedir. Kladistik analizlere dayanarak, Utahraptor'un daha küçük Dromaeosaurus ve dev Moğol ve Kuzey Amerika dromaeosaurid Achillobator ve Dakotaraptor ile yakından ilişkili olduğu düşünülmektedir."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Utahraptor Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt79"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt80"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt81"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

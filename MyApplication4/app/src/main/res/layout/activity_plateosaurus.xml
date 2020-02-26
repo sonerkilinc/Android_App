@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".plateosaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarplato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarplato">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarplato"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/plateosaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Plateosaurus was a bipedal herbivore with a small skull on a long, flexible neck, sharp but plump plant-crushing teeth, powerful hind limbs, short but muscular arms and grasping hands with large claws on three fingers, possibly used for defence and feeding. Unusually for a dinosaur, Plateosaurus showed strong developmental plasticity: instead of having a fairly uniform adult size, fully grown individuals were between 4.8 and 10 metres (16 and 33 ft) long and weighed between 600 and 4,000 kilograms (1,300 and 8,800 lb). Commonly, the animals lived for at least 12 to 20 years, but the maximum life span is not known."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plateosaurus Voice:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/Btn91"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn92"
+                android:text="stop"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn93"
+                android:text="waıted"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

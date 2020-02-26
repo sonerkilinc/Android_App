@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".TurkTetanuActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarTurkTetanu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarTurkTetanu"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/resim30"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/tetanurae"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg5"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:text="Tetanuralar, pek çok üyenin sahip olduğu çeşitli özelliklerle karakterize edilen çok çeşitli gruplar olan theropod dinozorlarıdır (bu prensiplere dayanarak, bu kladistik prensipleri kullanarak, bu özelliklere sahip olmayan tetanurların evrimsel tarih boyunca onları kaybetmeleri gerektiğini biliyoruz). Bu özelliklerden biri, özellikle sonraki coelurosaur'larda genişletilmiş bir menüdür (el). Tetanuralarda bulunan diğer tipik özellikler, manevellerdeki (eller) dördüncü ve beşinci hanelerin kaybını ve daha az esnek bir kuyruğu içerir."
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

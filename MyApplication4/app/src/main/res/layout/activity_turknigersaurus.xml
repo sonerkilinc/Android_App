@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turknigersaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturknigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturknigo">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturknigo"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/nigersaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Bir yorgan için küçük olan Nigersaurus, yaklaşık 9 metre uzunluğundaydı ve kısa bir boynu vardı. Modern bir fil ile karşılaştırılabilir yaklaşık dört ton. İskelet çok pnömatik hale getirildi (hava keselerine takılı hava cepleriyle dolu), ancak uzuvlar sıkıca yapıldı. Kafatası, büyük fenestra ve ince kemiklerin beslenmesinde uzmanlaştı. Her 14 günde bir, hızla değişen 500'den fazla dişle dolu geniş bir ağzı vardı. Çeneler bir keratin kılıfı taşıyor olabilir. Diğer tetrapodlardan farklı olarak, çenenin diş taşıyıcı kemikleri kafatasının geri kalanına göre enine şekilde döndürülür, böylece tüm dişleri öne yerleştirilir. aile. Nigersaurus muhtemelen bir tarayıcıydı ve başı yere yakın bir şekilde beslendi. Beynin koku algılayıcı bölgesi azgelişmiş durumdadır, ancak beyin büyüklüğü diğer dinozorlarınkiyle karşılaştırılabilir. Başının her zamanki gibi mi yoksa yatay bir şekilde diğer sauropodlar gibi yatay mı tutulacağı hakkında tartışmalar yapıldı. Nehir kıyısındaki bir habitatta yaşadı ve beslenmesi muhtemelen eğrelti otları, at kuyruğu ve anjiyospermler gibi yumuşak bitkilerden oluşuyordu. Bölgede bulunan en yaygın fosil omurgalılardan biridir ve habitatını diğer dinozor megaherbivörleri ile birlikte büyük theropodlar ve krokodilomorflarla paylaştı."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

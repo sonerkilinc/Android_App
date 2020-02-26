@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".dilophosaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbardilopho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbardilopho">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbardilopho"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/dilophosaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dilophosaurus, about 7 meters (23 ft) long, weighing about 400 kilograms (880 lb), was one of the oldest predatory dinosaurs, but smaller than later therapy sites. It was thin and lightly constructed and the skull was proportionally large, but it was delicate. The nose was narrow and there was a gap or curl under the nostril of the upper jaw. The skull had a pair of longitudinal, plate-shaped tops that resembled a two-peaked cassowary. The mandible is thin and delicate from the front and deep on the back. The teeth are long, curved, thin and compressed laterally. The lower jaws were much smaller than the upper jaws. Most of the teeth were serrated on the front and back edges. The neck was long and the vertebrae were hollow and very light. The arms were strong with a long and thin upper arm bone. The hands had four fingers: the first was carrying a short but strong and wide claw, the following two fingers being more delicate with longer and smaller claws, and the fourth was striking. His thigh bone was very large, his feet aching, and his toes bumping into large claws.Dilophosaurus is a member of the Dilophosauridae family, along with Dracovenator, a group of Coelophysidae and subsequent plants."
+                android:id="@+id/blg1"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dilophosaurus Voice:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/Btn61"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn62"
+                android:text="stop"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn63"
+                android:text="waıted"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

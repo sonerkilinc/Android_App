@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:background="@color/mediumspringgreen"
+    android:padding="20dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo4" />
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dinasours"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp" />
+    <Button
+        android:id="@+id/btnWelcomeEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/englısh"
+        android:background="@color/gold"
+        android:textColor="@color/blue"
+        android:layout_above="@+id/btnWelcomeTurkish"
+        android:layout_marginBottom="25dp" />
+    <Button
+        android:id="@+id/btnWelcomeTurkish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/turkish"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/blue"
+        android:background="@color/gold"
+        />
+
+
+</RelativeLayout>

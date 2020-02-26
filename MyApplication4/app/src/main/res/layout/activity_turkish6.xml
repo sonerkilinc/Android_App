@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".Turkish6Activity">
+
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarTurkish6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarTurkish6"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/resim29"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/ceratosauria2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg4"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="13sp"
+                android:text="Ceratosaurus kalıntıları Kuzey Amerika ve Tanzanya'da ve muhtemelen Portekiz'de bulunmuştur. Morrison Formasyonu'ndaki yaygın Allosaurus tarafından gölgede bırakılan ender bitkilerden biridir. Bir burun altında ve iki gözün üstünde. Aslında, otobur veya rakiplere saldırmak için kullanılan tehlikeli bir silah olduğuna inanılıyordu. Son araştırmalar, boynuzların silah olarak kullanılamayacak kadar keskin ve kırılgan olduğu ve muhtemelen arkadaş çekmeye yardımcı olacak bir ekran özelliği olduğu sonucuna varmıştır. Dört parmaklı kolu kısa ama tuhaf bir şekilde kaslıydı ve dişleri kafatasına göre en uzun idi, bazı durumlarda kafatasına göre en uzun, alt çenesini geçerken muhtemelen çenesi yutmak için inanılmaz derecede geniş açılabiliyordu. Muhtemelen bu dişleri daha büyük av çukurunu kesmek için kullanabilir. Ceratosaurus kuyruğu çok esnekti ve su ile beslendiğini gösteren yüzmeye yardım etti."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ceratosauria Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Sesi dinle"
+                android:id="@+id/Bt10"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt11"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt12"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

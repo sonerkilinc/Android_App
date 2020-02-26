@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".mamenchisaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarmamenchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarmamenchi">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarmamenchi"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/mamenchisaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Mamenchisaurus was first discovered in 1952 on the construction site of the Yitang Highway in Sichuan, China. The partial skeleton fossil was then studied, and named Mamenchisaurus constructus in 1954, by the renowned Chinese paleontologist Professor C. C. Young. The type specimen had an incomplete neck with 14 vertebrae preserved and none of these were complete. M. constructus has been estimated around 13 m (43 ft) and 15 m (49 ft) in length.In 1972, a second species was described, named Mamenchisaurus hochuanensis, with a neck that reached up to 9.3 m (31 ft) in length.This species had a complete neck preserved which contained 19 vertebrae.This was the longest neck known until the description of Supersaurus, based on a single neck vertebra, with an estimated neck length of about 14 meters (46 feet). Another long-necked sauropod exceeding M. hochuanensis was Sauroposeidon which was discovered in 1994. Based on the Sauroposeidon holotype, which only preserved 4 neck vertebra, its neck was estimated to be between 11.25 and 12 meters (36.9–39.4 feet) long."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turktroodonActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturktro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturktro">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturktro"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/troodon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Troodon (yani: incitici dış), 76-70 milyon yıl önce yaşamış olması gereken omnipotent bir dinozor türüdür. Uzunluğu 2-4 metre arasındadır ve ağırlığı 50 kg'dır. Yapı kuşların bacaklarına benzer şekilde çok uzun bacaklara sahipti. İki ayağı üzerinde yürürdü ve çok hızlı koşabildi. İleri işitme ve büyük gözleri vardı. Ve muhtemelen en zeki dinozordu."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Troodon Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt76"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt77"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt78"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

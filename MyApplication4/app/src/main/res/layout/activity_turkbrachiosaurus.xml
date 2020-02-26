@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turkbrachiosaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkbrachiosaurus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkbrachiosaurus">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkbrachiosaurus"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/brachiosaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brachiosaurus bilinen en uzun ve en büyük dinozorlardan biridir. Uzun bir boynu, küçük bir başı ve nispeten kısa bir kuyruğu vardır. Diğer su mercileri gibi, dört ayak üzerinde yürüyor; fakat onlardan farklı olarak, ön bacaklar arka bacaklardan daha uzundur. Bu sıradışı ön ayak ve uzun boyun, zürafa benzeri bir duruş verir ve yerden 12-16 metreye kadar çıkabilir. Brachiosaurus 25 m uzunluğa ve 30 ton tahmini ağırlığa ulaşabilir. Brachiosaurus brancai ve Homo sapiens boyut karşılaştırması. Alt ve üst çeneler öne eğimli 26 dişe sahiptir. Brachiosaurus bir otoburdur ve muhtemelen yüksek ağaçların yapraklarından beslenir. Sürülerde yaşadılar ve yemek için göç edebildiler. 100 yıla kadar yaşadıkları düşünülmektedir."
+                android:id="@+id/blg1"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brachiosaurus Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt49"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt50"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt51"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

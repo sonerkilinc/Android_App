@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".gallimimusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbargalli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbargalli">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbargalli"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/gallimimus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Gallimimus, fossil dinosaur genus Ornithomimidae family.Gallimimus herds once competed with each other in the deserts. He was one of the fastest dinosaurs. With their lightweight bodies and strong but slender legs, they could run faster than a racehorse. Gallimimus = chicken imitation, but these dinosaurs were more like ostriches than chickens. They had big eyes on both sides of their heads, just like those of birds. Gallimimus feeds on insects, small animals, caterpillars and seeds. Gallimimus used his long arms to approach the ground and reach his food. He could've gone 70 miles an hour."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gallimimus Voice:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/Btn85"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn86"
+                android:text="stop"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn87"
+                android:text="waıted"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".TurkbrontozorActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkbrontozor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkbrontozor">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkbrontozor"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/brontozor" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="B. excelsus uzun zamandır yakından ilişkili Apatosaurus türü olarak kabul edilmesine rağmen, 2015 yılında araştırmacılar Brontosaurus'un Apatosaurus'tan ayrı bir cins olduğunu ve üç tür içerdiğini öne sürdüler: B. excelsus, B. yahnahpin ve B. parvus.Brontosaurus'un uzun sürmesi, ince boyun ve otçul bir yaşam tarzı için uyarlanmış küçük bir kafa; hantal, ağır bir vücut; ve uzun, kırbaç benzeri bir kuyruk. Şu anda Kuzey Amerika olan Morrison Formatında Geç Jura döneminde yaşayan çeşitli türler, Jura'nın sonuna kadar tükenmiştir."
+                android:id="@+id/blg8"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="11sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

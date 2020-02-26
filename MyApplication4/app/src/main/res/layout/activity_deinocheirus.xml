@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".deinocheirusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbardeinoche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbardeinoche">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbardeinoche"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/deinocheirus1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Deinocheirus was an unusual ornithomimosaur, the largest of the clade at 11 m (36 ft) long, and weighing 6.4 t (7.1 short tons). Though it was a bulky animal, it had many hollow bones which saved weight. The arms were among the largest of any bipedal dinosaur at 2.4 m (7.9 ft) long, with large, blunt claws on its three-fingered hands. The legs were relatively short, and bore blunt claws. Its vertebrae had tall neural spines that formed a sail along its back. Most of the vertebrae and some other bones were highly pneumatised by invading air sacs. The tail ended in pygostyle-like vertebrae, which indicate the presence of a fan of feathers. The skull was 1.024 m (3.36 ft) long, with a wide bill and a deep lower jaw, similar to those of hadrosaurs."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

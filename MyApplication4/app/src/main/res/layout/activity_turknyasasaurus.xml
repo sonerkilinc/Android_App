@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turknyasasaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturknya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturknya">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturknya"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/nyasasaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Tip örneği, NHMUK R6856, iki ila üç metre uzunluğunda olduğu tahmin edilen bir bireye ait kısmi bir iskelettir. Sağ humerus, üç kısmi sakral omur ve üç presakral omurdan oluşur. İkinci bir örnek, üç servikal omur ve iki arka presakral omurdan oluşan SAM-PK-K10654 de bilinmektedir. NHMUK R6856 ile aynı türe atfedilmiştir, çünkü iki örneğin sırt veya omurgası hemen hemen aynıdır. Nasasaurus'un sınıflandırılması zor olmuştur. Bugün timsahlar ve kuşlar tarafından temsil edilen sürüngenler grubu Archosauria'ya ve Triyaslı kuşları, kuş olmayan dinozorları ve birkaç dinozor olmayan grubu içeren bir grup olan Archosauria'ya güvenle yerleştirilebilir."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turkplateoActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkplato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkplato">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkplato"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/plateosaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Plateosaurus, uzun, esnek bir boyun üzerinde küçük bir kafatası, keskin ancak dolgun bitki ezme dişleri, güçlü arka bacaklarda, kısa ama kaslı kollarda ve üç pençe üzerinde büyük pençeli kavrama, muhtemelen savunma ve beslenme için kullanılan iki ayaklı bir otçuydu. Alışılmadık şekilde bir dinozor için Plateosaurus, güçlü gelişimsel esneklik gösterdi: Oldukça düzgün yetişkin bir boyuta sahip olmak yerine, tamamen yetişkin bireyler 4.8 ila 10 metre (16 ila 33 fit) uzunluğunda ve 600 ila 4.000 kilogram (1.300 ila 8.800 lb) arasında kaldı. Genel olarak, hayvanlar en az 12 ila 20 yıl yaşadılar, ancak maksimum yaşam süresi bilinmemektedir."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Plateosaurus Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt91"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt92"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt93"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

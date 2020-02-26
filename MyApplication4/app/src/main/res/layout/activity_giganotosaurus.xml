@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".giganotosaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbargigano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbargigano">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbargigano"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/giganotosaurus1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giganotosaurus was one of the largest terrestrial carnivores known, but it was difficult to determine the exact size due to the lack of remains found so far. The denerite bone belonging to a so-called larger individual was used to extrapolate 13.2 m long. Some researchers found the animal larger than Tyrannosaurus, historically considered the largest theropod, while others found that they were roughly equal in size, and that the largest size estimates for Giganotosaurus were exaggerated. The skull was low, with hard nose bones and a back-like peak in the lacrimal bone in front of the eye. The front of the lower jaw was flattened and had a downward projection at the end. The teeth were squeezed from the side and serrated. The neck was strong and the pectoral girdle was proportionally small.Giganotosaurus, part of the family of Carcharodontosauridae, is one of the most well known members of the group, including other very large theropods, such as closely related Mapusaurus and Carcharodontosaurus. Giganotosaurus is thought to be homeothermic with a metabolism between that of a mammal and a reptile that allows rapid growth. With a maximum working speed of 14 meters per second, it can be moving relatively quickly. He could close his jaws quickly, catch strong prey and bring back his prey. The jaw may be helpful in resisting stress when it gives a bite to a bite hunt. The pinnacle of Giganotosaurus' ecosystem is thought to be a predator and may have been fed by child sacuropod dinosaurs."
+                android:id="@+id/blg1"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giganotosaurus Voice:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/Btn58"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn59"
+                android:text="stop"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn60"
+                android:text="waıted"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

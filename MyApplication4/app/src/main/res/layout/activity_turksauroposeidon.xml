@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turksauroposeidonActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturksauroposeidon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturksauroposeidon">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturksauroposeidon"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/sauroposeidon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Paleoekolojik analiz Sauroposeidon'un Meksika Körfezi kıyılarında bir nehir deltasında yaşadığını göstermektedir. Daha fazla bilinen Brachiosaurus'u temel alan ekstrapolasyonlar, Sauroposeidon'un başının boynu uzatılarak 17-18 m (56-59 ft) yüksekliğe ulaşabileceğini ve bunun bilinen en uzun dinozor olmasını sağlayabileceğini göstermektedir. Tahmini uzunluğu 27–34 m (89–112 ft) ve kütlesi 40-60 ton (44–66 kısa ton) olduğunda, en uzun ve en ağırlar arasındadır. Bununla birlikte, bu hayvan önceden tahmin edildiği gibi Brachiosaurus ile yakından ilişkili olmayabilir, bu nedenle bu tahminler yanlış olabilir."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="19sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sauroposeidon Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt88"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt89"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt90"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

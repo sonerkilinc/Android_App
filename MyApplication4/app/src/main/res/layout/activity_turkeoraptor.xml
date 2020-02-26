@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turkeoraptorActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkeo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkeo">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkeo"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/eoraptor1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Eoraptor'un tahmini ağırlığı yaklaşık 10 kilogram (22 lb) olan yaklaşık 1 metre (3 ft 3 inç) olan ince bir gövdesi vardı. Hafifçe genişletilmiş bir dış naris ile hafifçe inşa edilmiş bir kafatasına sahipti. Milyonlarca yıl sonra ortaya çıkacak olan coelophysoids gibi, Eoraptor'un üst çenelerinde, maksilla ve premaxilla arasında bir bükülme vardı. Paul Sereno ve diğ. (2013) alt çenenin orta mandibular eklemde olduğunu gözlemledi. Digitigrade ve arka ayakları üzerinde dik durdu. Holotip numunesinin femur PVSJ 512 152 milimetredir (6,0 inç) ve tibia 157 milimetredir (6,2 inç), bunun hızlı bir koşucu olduğunu göstermektedir. Ön ayakları, arka ayaklarının sadece yarısı kadardır ve çift uçlu olduğunu gösterir. Uzun kemiklerinin hepsinin içi boş millere sahiptir. Roktor, her birinin 'elinde', en uzun üçünün büyük pençelerle sona erdiği ve muhtemelen avını idare etmek için kullandığı beş haneye sahiptir. Bilim adamları dördüncü ve beşinci rakamların avlanmada kullanılamayacak kadar küçük olduğunu belirttiler. İlyum, sadece iki sakral tarafından desteklenen bir bazal özellik olan, her iki sakralla desteklenmiş olan her yaştaki hertorbaurus'un aksine, üç sakral omur tarafından desteklenir. Eoraptor, atalarının bazılarında bulunan ve içi boş olan vertebra merkezlerine sahipti."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eoraptor Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt97"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt98"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt99"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

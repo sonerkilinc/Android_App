@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turkcerapodaActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkcera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkcera"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/resim35"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/cerapoda"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg4"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="11sp"
+                android:text="Cerapoda, Ornithischia takımının bir dizisi veya alt kümesidir. Bunlar Genasauria klanındaki kardeş Thyreophora grubudur. İki veya üç gruba ayrılırlar. Bu gruplardan ilki Ornithopoda (kuş ayağı) idi. Cerapodlar, alt dişlerin içinde daha ince bir emaye tabakası bulundurularak birleştirilir. Dişler düzensiz çiğnendi ve cerapodların diğer dinozorlardan daha sert bitki besinlerini parçalamalarını sağlayan keskin sırtlar geliştirdi. Diğer iki grup Pachycephalosauria (kalın başlı kertenkeleler) ve Ceratopsia (boynuzlu yüz) idi. Sonuncusu, bazen kafatasının arkasındaki kemikli rafı içeren ortak özelliklerinden dolayı Marginocephalia (saçaklı kafalar) olarak birleştirilir."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cerapoda Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt28"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt29"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt30"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".nigersaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarnigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarnigo">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarnigo"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/nigersaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Nigersaurus, small for a duvet, was about 9 meters long and had a short neck. It is about four tonnes comparable to a modern elephant. The skeleton was made very pneumatic (filled with air pockets attached to the air sacs), but the limbs were built firmly. He was highly specialized in feeding the skull, large fenestras and fine bones. He had a wide mouth filled with more than 500 teeth, which were quickly changed: every 14 days. The jaws may be carrying a keratin sheath. Unlike other tetrapods, the tooth-bearing bones of the jaw are rotated transversely with respect to the rest of the skull, so that all of their teeth are positioned forward. family. Nigersaurus was probably a scanner and his head was fed close to the ground. The odor-detecting region of the brain is underdeveloped, but the brain size is comparable to that of other dinosaurs. Discussions were made about whether to keep the head down as usual or horizontally like other sauropods. He lived in a riverbank habitat and his feeding probably consisted of soft plants such as ferns, horsetail and angiosperms. It is one of the most common fossil vertebrates found in the region, and has shared its habitat with other dinosaur megaherbivors as well as large theropods and crocodilomorphs."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

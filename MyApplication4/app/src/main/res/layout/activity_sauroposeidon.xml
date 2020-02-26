@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".sauroposeidonActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarsauroposeidon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarsauroposeidon">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarsauroposeidon"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/sauroposeidon" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Paleoecological analysis indicates that Sauroposeidon lived on the shores of the Gulf of Mexico, in a river delta. Extrapolations based on the more completely known Brachiosaurus indicate that the head of Sauroposeidon could reach 17–18 m (56–59 ft) in height with its neck extended, which would make it the tallest known dinosaur. With an estimated length of 27–34 m (89–112 ft) and a mass of 40–60 t (44–66 short tons), it also ranks among the longest and heaviest. However, this animal may not be as closely related to Brachiosaurus as previously thought, so these estimates may be inaccurate."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sauroposeidon Voice:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/Btn88"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn89"
+                android:text="stop"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn90"
+                android:text="waıted"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GamesActivity"
+            android:parentActivityName=".EnglishActivity"></activity>
+        <activity
+            android:name=".turknyasasaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkornithomimusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkeoraptorActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkamargasaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkplateoActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkmamenchiActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turksauroposeidonActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkdeinocheirusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkgalliActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurktitanozorActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkdeinonychusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkutahrapActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turknigersaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turktroodonActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkapatosaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkarkeopteriksActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkbariyoniksActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkargentinoActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkdilophosaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkgiganotoActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkbrontozorActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkcarnotaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkdiplodocusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkbrachiosaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkspinosaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkVelocirapActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurktiranozorActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkOrnithopodaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkceratopsiaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkpachyActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turkcerapodaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkAnkyloActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkstegosauriaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkthyreophoraActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkornithischiaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".turksauropodaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkriojasaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkThecodontosaurusActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkSauropodomorphaActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".TurkTetanuActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".nyasasaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".ornithomimusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".eoraptorActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".amargasaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".plateosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".mamenchisaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".sauroposeidonActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".deinocheirusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".gallimimusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".titanozorActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".deinonychusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".utahraptorActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".nigersaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".troodonActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".apatosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".arkeopteriksActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".bariyoniksActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".argentinosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".dilophosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".giganotosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".brontozorActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".CarnotaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".diplodocusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".brachiosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".SpinosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".VelociraptorActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".TiranozorActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".PachycephalosauriaActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".AnkylosauriaActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".CerapodaActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".ThyreophoraActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".OrnithischiaActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".RiojasaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".ThecodontosaurusActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".SauropodomorphaActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".TetanuActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English18Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English14Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English19Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English11Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".TurkishİmagesActivity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".Turkish6Activity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".Turkish5Activity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".Turkish4Activity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".Turkish3Activity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".Turkish2Activity"
+            android:parentActivityName=".TurkishActivity" />
+        <activity
+            android:name=".EnglishİmagesActivity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English6Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English5Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English4Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English3Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".English2Activity"
+            android:parentActivityName=".EnglishActivity" />
+        <activity
+            android:name=".TurkishActivity"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity
+            android:name=".EnglishActivity"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

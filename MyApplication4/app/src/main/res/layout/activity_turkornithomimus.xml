@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".turkornithomimusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkhomimus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkhomimus">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkhomimus"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/ornithomimus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Ornithomimus,Struthiomimus gibi diğer ornithomimidlerden, daha kısa torsolara, uzun ince kollara, çok ince, düz el ve ayak pençelerine ve el kemiklerine (metakarplar) ve benzer uzunluktaki parmaklara sahip olmaktan farklıdır. boyut olarak değişir. 2010 yılında Gregory S. Paul, O. edmontonicus'un uzunluğunu 3.8 m (12 ft), ağırlığını 170 kilogram (370 lb) olarak hesaplamıştır. Örneklerinden biri olan CMN 12228, 46.8 cm uzunluğunda bir femur (uyluk kemiği) korur. Ornithomimus türü olan O. velox, daha küçük bir hayvanın malzemesine dayanır. O. edmontonicus'un holotipi CMN 8632, ikinci bir metacarpal seksen dört milimetre uzunluğunu korurken, O. velox ile aynı eleman sadece elli üç milimetreyi ölçmektedir."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="16sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

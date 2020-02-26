@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".nyasasaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarnya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarnya">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarnya"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/nyasasaurus" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="The type specimen, NHMUK R6856, is a partial skeleton belonging to an individual estimated to have been two to three metres in length. It consists of a right humerus, three partial sacral vertebrae and three presacral vertebrae. A second specimen, SAM-PK-K10654 consisting of three cervical vertebrae and two posterior presacral vertebrae, is also known. It was attributed to the same species as NHMUK R6856 because the dorsal or back vertebrae of the two specimens are nearly identical.Nyasasaurus has been difficult to classify. It can be placed confidently within Archosauria, the group of reptiles represented today by crocodilians and birds, and within Dinosauriformes, the group that includes birds, non-avian dinosaurs, and several non-dinosaurian groups from the Triassic."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

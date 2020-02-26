@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/kahaki"
+    android:layout_height="match_parent"
+    tools:context=".TurkVelocirapActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkvelociraptor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkvelociraptor">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim26"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkvelociraptor"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/velociraptor" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ağırlığının yaklaşık 15 kg olduğu düşünülen bu türün boyu kuyruktan buruna iki yüz cm, yerden elli cm kadardı. İki ayak üzerinde yürüme. En hızlı dinozorlardan biri. Sert kuyruğu ile stabilize edip hızlı dönüşler yapabilir.Ayrıca on beş cm uzunluğunda orak şeklinde çivili baş parmakları olan ölümcül bir yırtıcı hayvandır. avlanırken ağırlığı ve güçlü çenesi. Keskin pençesini kurbanın damarından bıçaklayarak üç ila beş saniyede öldürdü. Gruplar halinde avlandılar. Onu diğer dinozorlardan ayıran en önemli özellik zekasıdır. Raptor istihbarat filmlerin konusu olmuştur. Ayrıca Velociraptor'u Jurassic Park film serisinde de bulabilirsiniz. Ancak bu seride normal boyundan daha uzun gösterilerek bir hata yapıldı. Aslında, Velociraptor bildiğimiz hindiden daha uzun değildir.Velociraptor da çok küçük ve ilkel kanatlara sahipti. Küçük boyutundan dolayı uçmak için kanatlarını kullanamadı, ancak son bilim adamlarının son araştırmalarına göre, avlanma sırasında kolayca ve hızlıca manevra yapmak için kanatlarını kullandığı tahmin ediliyor. Son yıllarda, kuşların tarih öncesi atalarının, Velociraptor gibi dinozorlar olduğu düşünülmektedir."
+                android:id="@+id/blg1"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Velociraptor Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt43"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt44"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt45"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

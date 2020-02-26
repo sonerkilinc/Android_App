@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".TurkpachyActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkpachy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkpachy"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/resim36"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/pachycephalosauria1"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg4"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                android:text="Pachycephalosaurus muhtemelen bipedaldi ve bazıları Stygimoloch, Dracorex ve Stegoceras olan kemik başlı dinozorların en tanınmışlarıydı. Beynini güvenli bir şekilde dinlendiren, 25 cm (10 inç) kalınlığa kadar olan kafatasında büyük, kemikli bir kubbesi olmasıyla ünlüdür. Kubbenin arkası kemikli topuzlarla çevrilidir ve kısa kemikli sivri burunlardan yukarı doğru çıkıntı yapar. Bu özellikler, iki ayaklı duruşlarına rağmen, ceratopsianların akraba olma ihtimalinin bulunduğunu göstermektedir. kalın boyun, kısa ön bacak, hacimli bir gövde, uzun arka bacaklarda. ve ossifiye tendonlar tarafından katı bir şekilde tutturulması muhtemel olan ağır bir kuyruk. Geniş ileri göz yuvaları, hayvanın iyi görebildiğini ve dürbünle görebildiğini gösterir."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pachycephalosauria Sesi:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="sesi dinle"
+                android:id="@+id/Bt31"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt32"
+                android:text="kapat"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Bt33"
+                android:text="beklet"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

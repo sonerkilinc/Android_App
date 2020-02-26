@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".TurkThecodontosaurusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarTurkthecodontosaurus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarTurkthecodontosaurus"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/resim31"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/thecodontosaurus2"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg5"
+                android:layout_marginTop="-5dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="11sp"
+                android:text="Thecodontosaurus antiquus, Geç Triyas'ta (Norian ve / veya Rhaet yaşı) yaşayan, otçul bazal sauropodomorf dinozorun bir türüdür. Kalıntılar en iyi Güney İngiltere'deki Triyas fissür dolgularından bilinir. Kodontosaurus, yaklaşık 2 m (6,5 ft) uzunluğunda, küçük bir iki ayaklı hayvandı. Keşfedilecek ilk dinozorlardan biri ve en eskilerinden biri. Birçok cins cinsinde adlandırılmıştır, ancak yalnızca Thecondontosaurus antiquus türünün türlerinin bugün geçerli olduğu düşünülmektedir."
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

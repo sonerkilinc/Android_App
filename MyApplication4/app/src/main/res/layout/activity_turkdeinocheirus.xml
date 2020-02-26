@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".TurkdeinocheirusActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbarturkdeinoche"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbarturkdeinoche">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbarturkdeinoche"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/deinocheirus1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/blg9"
+                android:text="Deinocheirus, 11 m (36 ft) uzunluğunda ve 6,4 ton (7,1 kısa ton) ağırlığındaki en büyük kanadın olağandışı bir ornithomimosauruydu. Hacimli bir hayvan olmasına rağmen, ağırlık kazandıran birçok içi boş kemikleri vardı. Silahlar, iki parmaklı ellerinde büyük, keskin pençeleri olan, 2.4 m (7.9 ft) uzunluğundaki iki ayaklı dinozorların en büyüğü arasındaydı. Bacaklar nispeten kısaydı ve künt pençeleri vardı. Omurgası, sırtında yelken açan uzun nöral dikenlere sahipti. Omurların ve diğer bazı kemiklerin çoğu, istilacı hava keseleri tarafından pnömize edildi. Kuyruk, tüylerin bir fanının varlığını gösteren, pgostol benzeri omurda sona erdi. Kafatası 1.024 m (3.36 ft) uzunluğundaydı, geniş bir tasarı ve hadrosaurlarınkilere benzer derin bir alt çeneye sahipti."
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

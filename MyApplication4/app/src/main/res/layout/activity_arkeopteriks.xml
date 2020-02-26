@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/kahaki"
+    tools:context=".arkeopteriksActivity">
+
+    <include
+        layout="@layout/actionbar_app"
+        android:id="@+id/actionbararkeop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/actionbararkeop">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <ImageView
+                android:id="@+id/resim38"
+                android:layout_width="match_parent"
+                android:layout_height="335dp"
+                android:layout_below="@id/actionbararkeop"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/arkeopteriks" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Archeopteryx is a genus of birdlike dinosaur, flightless feathered dinosaurs, and the transition between modern birds. During the late 19th and early 20th centuries, Archeopteryx was regarded as the oldest bird known to paleontologists and popular books (member of the Avialae group). In the process, older potential avialans such as Anchiornis, Xiaotingia and Aurornis were identified. Archeopteryx could reach 0.5 m in length. Despite its small size, large wings, and the ability to fly or soar through the air, Archeopteryx has more common features with other small Mesozoic dinosaurs than with modern birds. It shares aspects such as the sharp toothed jaw, clawed three fingers, a long bony tail, highly extensible secondary toe, feathers (which indicate warmth), and various skeletal features, particularly with dromaeosaurides and troodontides."
+                android:id="@+id/blg9"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/crimson"
+                android:textStyle="italic"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arkeopteriks Voice:"
+                android:textColor="@color/crimson"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="play"
+                android:id="@+id/Btn70"
+                android:layout_marginTop="10dp"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn71"
+                android:text="stop"
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="-48sp"
+                android:id="@+id/Btn72"
+                android:text="waıted"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
